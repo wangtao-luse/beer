@@ -1,0 +1,432 @@
+#shortcut{
+	border-bottom: 1px solid #ddd;
+	background-color: #e3e4e5;
+}
+#shortcut .w{
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+}
+.w{
+	margin: auto;
+	width: 1190px;
+}
+#ttbar-mycity .iconfont{
+	font-size: 14px;
+    color: #f10215;
+    margin-right: 4px;
+}
+#shortcut li{
+	float: left;
+}
+#shortcut a{
+	color: #999;
+}
+#shortcut .cw-icon{
+	height: 28px;
+	line-height: 28px;
+}
+#shortcut .dt{
+	padding-left: 7px;
+	padding-right:7px ;
+}
+#ttbar-login{
+	margin-right: 8px;
+}
+#shortcut .style-red{
+	color: #f10215;
+}
+#shortcut .dt{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#shortcut li.spacer{
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 11px 5px 0;
+	overflow: hidden;
+}
+#header{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+#header .w{
+	height: 140px;
+	position: relative;
+}
+#header .style-red{
+	color: #e1251b;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+#logo{
+	width: 190px;
+	height: 120px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+#logo .logo-img{
+	background: url(../img/beer2.png) no-repeat;
+	background-position: 0 0;
+	width: 190px;
+	height: 120px;
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+}
+.serach-m{
+	height: 60px;
+	position: relative;
+}
+#search .form{
+	width: 546px;
+	height: 32px;
+	border: 2px solid #e2231a;
+	position: absolute;
+	left: 260px;
+	top: 25px;
+}
+.serach-m .text{
+	width: 425px;
+	height: 26px;
+	line-height: 26px;
+	padding: 2px 44px 2px 17px;
+	color: #333;
+	font-size: 12px;
+	outline: none;
+	border: 1px solid transparent;
+	position: absolute;
+	top: 0;
+	background: transparent none repeat scroll 0% 0%;
+	
+}
+.photo-search-btn{
+	position: absolute;
+	top: 10px;
+	right: 75px;
+	width: 19px;
+	height: 15px;
+	overflow: hidden;
+}
+.photo-search-btn .upload-bg{
+	display: block;
+	width: 20px;
+	height: 20px;
+	line-height: 14px;
+	font-size: 20px;	
+	font-family: iconfont,sans-serif;
+	text-align: center;
+	color: #9f9f9f;
+	cursor: pointer;
+}
+.photo-search-btn .upload-trigger{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	
+}
+.serach-m .button{
+	width: 58px;
+	height: 32px;
+	line-height: 32px;
+	border: none;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e1251b;
+	transition: background 0.2s ease;
+	position: absolute;
+	top: 0;
+	right: 0;
+	outline: none;
+}
+#hotwords{
+	position: absolute;
+	left: 260px;
+	top: 65px;
+	width: 550px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+#hotwords a{
+	float: left;
+	margin-right: 10px;
+}
+#hotwords a:hover{
+	color: #c81623;
+}
+#navitems{
+	height: 40px;
+	position: absolute;
+	left: 203px;
+	bottom: 0;
+	padding-top: 20px;
+	overflow: hidden;
+}
+#navitems ul,#navitems li{
+	float: left;
+}
+#navitems li{
+	margin-left: 1px;
+}
+#navitems a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+	font-size: 15px;
+	margin: 0 11px;
+	transition: color 0.2s ease;
+}
+#navitems-group1 .fore1 a, #navitems-group1 .fore2 a {
+    font-weight: 700;
+    color: #e1251b;
+}
+#navitems a:hover {
+    color:#c81623;
+}
+#treasure{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	width: 190px;
+	height: 120px;
+}
+.promo_lk{
+	background-image: url(../img/ad.png);
+	position: relative;
+	display: block;
+	width: 190px;
+	height: 120px;
+	z-index: 3;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	-webkit-animation: promoShow 0.3s ease;
+	animation: promoShow 0.3s ease;
+}
+.fs{
+	margin-bottom: 30px;
+}
+.fs_inner{
+	height: 870px;
+	background-color: #f4f4f4;
+}
+.grid_c1{
+	width: 1190px;
+	margin: 0 auto;
+}
+.fs,.fs_inner{
+	position: relative;
+}
+.fs-col1{
+	width: 190px;	
+}
+.fs-col1,.fs-col2{
+	float: left;
+	height: 840px;
+	margin-right: 10px;
+}
+.cate_menu{
+	height: 840px;
+	background-color: #fefefe;
+	margin-top:10px ;
+	padding: 10px 0;
+	color: #636363;
+}
+.cate18 .cate_menu_item{
+	height: 25px;
+	line-height: 25px;
+	
+}
+.cate_menu_item{
+	padding-left: 18px;
+}
+.cate_menu_lk{
+	color: #333;
+	font-size: 14px;
+	transition: color 0.2s ease;
+}
+.fs-col2{
+	width: 790px;	
+}
+.focus{
+	height: 470px;
+	margin-top: 10px;
+	border: 1px solid red;
+}
+.fs-col3{
+	width: 190px;
+	height: 840px;
+	float: right;
+}
+.user{
+	height: 102px;
+	background: #fff;
+	margin-top: 10px;
+	
+}
+.news,.news2{
+	height: 130px;
+	background: #fff;	
+}
+.news .news_hd{
+	height: 20px;
+	padding: 10px 0 0;
+}
+.service{
+	height: 238px;
+}
+.service_entry{
+	background: #fff;
+	padding: 5px 0.5px;
+}
+.service_list{
+	height: 225px;
+	padding-top: 5px;
+}
+.beer_container.floor{
+	height: 340px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+	
+}
+.top{
+ background: #fff;	
+}
+.box-hd{
+	height: 60px;
+	padding: 0 20px;
+}
+.cate_pop{
+	width: 998px;
+	min-height: 468px;
+	position: absolute;
+	top: 0;
+	left: 191px;
+	border: 1px solid #f7f7f7;
+	background-color: #fff;
+	box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+}
+.cate_part_col1{
+	width: 850px;
+	float: left;
+}
+.cate_channel{
+	height: 24px;
+	padding-left: 20px;
+}
+.cate_channel_lk{	
+	float: left;
+	margin-right: 10px;
+	padding: 0 10px;
+	height: 24px;
+	background-color:#333;
+	line-height: 24px;
+	color:#fff;
+	cursor: pointer;
+}
+.cate_channel_lk:hover{
+	background: #c81623;
+	color: #fff;
+	
+}
+.cate_channel_arrow{
+	margin-left: 5px;
+}
+.cate_detail{
+	padding: 10px 0 0 20px;
+}
+.cate_detail_item{
+	position: relative;
+	padding-left: 120px;
+}
+.cate_detail_tit{
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 110px;
+	text-align: right;
+	font-weight: 700;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.cate_detail_con{
+	padding: 5px 0;
+}
+/*.cate_detail_con_lk {
+    float: left;
+    margin: 3px 0;
+    padding: 0 7px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#b_lightning{
+	height: 340px;
+	background: #fff;
+	width: 1190px;
+	margin: 10px auto
+	
+}
+
+#b_niceGoods{
+	height: 260px;
+	background: #fff;
+	width: 1190px;
+	margin: 10px auto;
+	border: 1px solid red;
+}
+#b-core2{
+	height: 340px;
+	background: #fff;
+	width: 1190px;
+	margin: 10px auto
+}
+#b_channels{
+	background: #fff;
+	width: 1190px;
+	margin: 10px auto;
+	height: 815px;
+}
+#b_feeds{
+	min-height: 305px;
+	width: 1190px;
+	margin: 10px auto;
+	background: #fff;
+}
+#b-footer{
+	width: 1190px;
+	margin: 10px auto;
+}
