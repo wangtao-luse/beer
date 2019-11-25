@@ -23,6 +23,9 @@ em,i{
 button, input {
     font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
 }
+button {
+	cursor: pointer;
+}
 .fl{
 	float: left;
 }
