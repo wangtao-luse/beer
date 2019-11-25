@@ -218,7 +218,7 @@
 	margin-bottom: 30px;
 }
 .fs_inner{
-	height: 870px;
+	height: 900px;
 	background-color: #f4f4f4;
 }
 .grid_c1{
@@ -233,14 +233,14 @@
 }
 .fs-col1,.fs-col2{
 	float: left;
-	height: 840px;
+	height: 900px;
 	margin-right: 10px;
 }
 .cate{
 	position: relative;
 }
 .cate_menu{
-	height: 840px;
+	height: 870px;
 	background-color: #fefefe;
 	margin-top:10px ;
 	padding: 10px 0;
@@ -324,7 +324,7 @@
 	padding: 20px 0 10px;
 }
 .cate_part_col1{
-	width: 600px;
+	width: 800px;
 	float: left;
 	border: 1px solid red;
 }
@@ -373,34 +373,84 @@
 .cate_detail_con{
 	padding: 5px 0;
 }
-/*.cate_detail_con_lk {
+.cate_detail_con_lk{
+	display: inline-block;
+	/*float: left; 待研究jd*/
+	padding: 0 7px;
+	margin: 3px 0;
+	height: 16px;
+	line-height: 16px;
+	white-space: nowrap;
+	
+	
+}
+.focus .focus-slider .sliderBanner {
+    position: relative;
+}
+.slider_control {
+    position: absolute;
+    top: 50%;
+    border-radius: 0;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    width: 25px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d9d9d9;
+    background-color: 
+    rgba(0,0,0,.15);
+    margin-top: -20px;
+    font-size: 20px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+.focus .focus-slider .focus-item_core{
+	height: 470px;
+	width: 590px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.focus .focus-slider .focus-item_core .focus-item-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.focus .focus-slider .sliderBannerWrapper {
+    width: 590px;
+    margin-right: 10px;
     float: left;
-    margin: 3px 0;
-    padding: 0 7px;
-    height: 16px;
-    line-height: 16px;
-    white-space: nowrap;
-}*/
+    overflow: hidden;
+}
+.focus .focus-slider .sliderBanner {
+    position: relative;
+}
+.slider_control_next {
+    right: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.focus .focus-item__recommend {
+    width: 190px;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+}
+.focus .focus-item_recommend .recommend-item {
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+.focus .focus-item_recommend .recommend-item_image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
 
 #b_lightning{
