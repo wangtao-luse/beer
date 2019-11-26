@@ -220,6 +220,7 @@
 .fs_inner{
 	height: 900px;
 	background-color: #f4f4f4;
+	z-index: 1;
 }
 .grid_c1{
 	width: 1190px;
@@ -238,6 +239,7 @@
 }
 .cate{
 	position: relative;
+	z-index: 3;
 }
 .cate_menu{
 	height: 870px;
@@ -511,13 +513,12 @@ img {
 	background-color: #fff;
 	box-shadow: 2px 0 5px rgba(0,0,0,0.3);
 }
-.cate-part{
+.cate_part{
 	padding: 20px 0 10px;
 }
 .cate_part_col1{
 	width: 800px;
 	float: left;
-	border: 1px solid red;
 }
 .cate_channel{
 	height: 24px;

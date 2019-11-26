@@ -5,6 +5,8 @@
 		<title>ibeer</title>
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-3.4.1.js.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 	<body>
 		<div class="mod_container">		
@@ -122,52 +124,52 @@
 		  		<div class="fs-col1">
 		  			<div id="b_cate" class="cate b_cate cate18">
 		  				<ul class="JS_navCtn cate_menu">
-		  					<li class="cate_menu_item cate_menu_item_on"><a class="cate_menu_lk" href="#" title="STANDARD AMERICAN BEER">典型美式啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">国际拉格啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">捷克拉格</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧式淡色麦芽味拉格</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧式淡色苦味啤酒</a></li>
+		  					<li class="cate_menu_item cate_menu_item_on" data-index="1"><a class="cate_menu_lk" href="#" title="STANDARD AMERICAN BEER">典型美式啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="2"><a class="cate_menu_lk" href="#">国际拉格啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="3"><a class="cate_menu_lk" href="#">捷克拉格</a></li>
+		  					<li class="cate_menu_item" data-index="4"><a class="cate_menu_lk" href="#">欧式淡色麦芽味拉格</a></li>
+		  					<li class="cate_menu_item" data-index="5"><a class="cate_menu_lk" href="#">欧式淡色苦味啤酒</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧式琥珀麦芽拉格</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧式琥珀苦啤</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧洲深色拉格</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧洲烈性啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">德式小麦啤</a></li>
+		  					<li class="cate_menu_item" data-index="6"><a class="cate_menu_lk" href="#">欧式琥珀麦芽拉格</a></li>
+		  					<li class="cate_menu_item" data-index="7"><a class="cate_menu_lk" href="#">欧式琥珀苦啤</a></li>
+		  					<li class="cate_menu_item" data-index="8"><a class="cate_menu_lk" href="#">欧洲深色拉格</a></li>
+		  					<li class="cate_menu_item" data-index="9"><a class="cate_menu_lk" href="#">欧洲烈性啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="10"><a class="cate_menu_lk" href="#">德式小麦啤</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">英式苦啤</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">英联邦淡色啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">英式棕色艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">苏格兰艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">爱尔兰艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="11"><a class="cate_menu_lk" href="#">英式苦啤</a></li>
+		  					<li class="cate_menu_item" data-index="12"><a class="cate_menu_lk" href="#">英联邦淡色啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="13"><a class="cate_menu_lk" href="#">英式棕色艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="14"><a class="cate_menu_lk" href="#">苏格兰艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="15"><a class="cate_menu_lk" href="#">爱尔兰艾尔</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">深色英式啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">烈性英式艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">淡色美式艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">琥珀和棕色美式艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">美式波特和美式世涛</a></li>
+		  					<li class="cate_menu_item" data-index="16"><a class="cate_menu_lk" href="#">深色英式啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="17"><a class="cate_menu_lk" href="#">烈性英式艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="18"><a class="cate_menu_lk" href="#">淡色美式艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="19"><a class="cate_menu_lk" href="#">琥珀和棕色美式艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="20"><a class="cate_menu_lk" href="#">美式波特和美式世涛</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">印度淡色艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">美式烈性艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">欧洲酸艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">比利时淡色艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">烈性比利时艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="21"><a class="cate_menu_lk" href="#">印度淡色艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="22"><a class="cate_menu_lk" href="#">美式烈性艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="23"><a class="cate_menu_lk" href="#">欧洲酸艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="24"><a class="cate_menu_lk" href="#">比利时淡色艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="25"><a class="cate_menu_lk" href="#">烈性比利时艾尔</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">修道院-特拉啤斯特艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">历史上存在的啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">美国野菌艾尔</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">果啤</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">香料啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="26"><a class="cate_menu_lk" href="#">修道院-特拉啤斯特艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="27"><a class="cate_menu_lk" href="#">历史上存在的啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="28"><a class="cate_menu_lk" href="#">美国野菌艾尔</a></li>
+		  					<li class="cate_menu_item" data-index="29"><a class="cate_menu_lk" href="#">果啤</a></li>
+		  					<li class="cate_menu_item" data-index="30"><a class="cate_menu_lk" href="#">香料啤酒</a></li>
 		  					
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">另类发酵物啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">烟熏啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">特色啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">中式啤酒</a></li>
-		  					<li class="cate_menu_item"><a class="cate_menu_lk" href="#">普通啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="31"><a class="cate_menu_lk" href="#">另类发酵物啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="32"><a class="cate_menu_lk" href="#">烟熏啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="33"><a class="cate_menu_lk" href="#">特色啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="34"><a class="cate_menu_lk" href="#">中式啤酒</a></li>
+		  					<li class="cate_menu_item" data-index="35"><a class="cate_menu_lk" href="#">普通啤酒</a></li>
 		  					
 		  					
 		  				</ul>
 		  				<div id="b_popCtn" class="JS_popCtn cate_pop" style="display: none;">
-		  					<div class="cate_part clearfix" id="cate_item1">
+		  					<div id="cate_item1" class="cate_part clearfix" style="display: none;" >
 		  						<div class="cate_part_col1">
 		  							<div class="cate_channel">
 		  								<a href="#" class="cate_channel_lk" target="_blank">美式淡爽拉格<i class="iconfont cate_channel_arrow">&#xe693;</i></a>
@@ -190,7 +192,7 @@
 		  										
 		  									</dd>
 		  								</dl>
-		  								<dl class="cate_detail_item cate_detail_item1">
+		  								<dl class="cate_detail_item cate_detail_item2">
 		  									<dt class="cate_detail_tit">
 		  										<a href="#" class="cate_detail_tit_lk" target="_blank" title="American Lager">美式拉格<i class="iconfont cate_detail_tit_arrow">&#xe693;</i></a>
 		  									</dt>
@@ -204,7 +206,7 @@
 		  										
 		  									</dd>
 		  								</dl>
-		  								<dl class="cate_detail_item cate_detail_item1">
+		  								<dl class="cate_detail_item cate_detail_item3">
 		  									<dt class="cate_detail_tit">
 		  										<a href="#" class="cate_detail_tit_lk" target="_blank" title="Cream Ale">奶油艾尔<i class="iconfont cate_detail_tit_arrow">&#xe693;</i></a>
 		  									</dt>
@@ -221,7 +223,7 @@
 		  										
 		  									</dd>
 		  								</dl>
-		  								<dl class="cate_detail_item cate_detail_item1">
+		  								<dl class="cate_detail_item cate_detail_item4">
 		  									<dt class="cate_detail_tit">
 		  										<a href="#" class="cate_detail_tit_lk" target="_blank" title="American Wheat Beer">美式小麦啤<i class="iconfont cate_detail_tit_arrow">&#xe693;</i></a>
 		  									</dt>
@@ -240,6 +242,9 @@
 		  							<div class="cate_promotion"></div>
 		  							
 		  						</div>
+		  					</div>
+		  					<div id="cate_item2" class="cate_part clearfix" style="display: none;">
+		  						
 		  					</div>
 		  				</div>
 		  			</div>
