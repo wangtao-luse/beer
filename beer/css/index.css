@@ -415,7 +415,6 @@
     width: 950px;
     transform: translate3d(0px, 0px, 0px);
     transition: none 0s ease 0s;*/
-
 }
 	
 .focus .focus-item_recommend {
@@ -573,21 +572,13 @@ img {
 	height: 16px;
 	line-height: 16px;
 	white-space: nowrap;
-	
-	
 }
-
-
-
-
 #b_lightning{
 	height: 340px;
 	background: #fff;
 	width: 1190px;
-	margin: 10px auto
-	
+	margin: 10px auto;
 }
-
 #b_niceGoods{
 	height: 260px;
 	background: #fff;
