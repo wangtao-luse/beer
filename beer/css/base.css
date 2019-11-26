@@ -33,16 +33,14 @@ button {
 	float: right;
 }
 /*https://blog.csdn.net/jyb123/article/details/51179725*/
-
-
 @font-face {
   font-family: 'iconfont';  /* project id 1516828 */
-  src: url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.eot');
-  src: url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.woff2') format('woff2'),
-  url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_1516828_kqeo0b8kgac.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.eot');
+  src: url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1516828_ajv10vms5nr.svg#iconfont') format('svg');
 }
 
 .iconfont{
