@@ -256,6 +256,9 @@
 .cate_menu_item{
 	padding-left: 18px;
 }
+.cate_menu_item_on{
+	background: #d9d9d9;
+}
 .cate_menu_lk{
 	color: #333;
 	font-size: 14px;
