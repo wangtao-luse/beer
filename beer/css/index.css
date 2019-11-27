@@ -218,7 +218,7 @@
 	margin-bottom: 30px;
 }
 .fs_inner{
-	height: 900px;
+	height: 880px;
 	background-color: #f4f4f4;
 	z-index: 1;
 }
@@ -234,7 +234,7 @@
 }
 .fs-col1,.fs-col2{
 	float: left;
-	height: 900px;
+	height: 880px;
 	margin-right: 10px;
 }
 .cate{
@@ -242,7 +242,7 @@
 	z-index: 3;
 }
 .cate_menu{
-	height: 870px;
+	height: 850px;
 	background-color: #fefefe;
 	margin-top:10px ;
 	padding: 10px 0;
@@ -450,14 +450,14 @@ img {
 }
 
 .beer-new-wrapper{
-	height: 410px;
+	height: 390px;
 	width: 790px;
 	margin-top: 10px;
 	background: #fff;
 }
 #ibeer-wrapper{
 	background: #fff;
-	height: 410px;
+	height: 390px;
 	margin-top: 10px;
 }
 .fs-col3{
@@ -505,7 +505,7 @@ img {
 }
 .cate_pop{
 	width: 998px;
-	min-height: 468px;
+	min-height: 870px;
 	position: absolute;
 	top: 0;
 	left: 191px;
