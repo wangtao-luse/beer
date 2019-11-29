@@ -18,9 +18,9 @@ $(function(){
 		$("#b_popCtn").css("display","none");
 	});
 	$(window).scroll(function(){
-		//console.log($(document).scrollTop());
+		console.log($(document).scrollTop());
 		var s = $(document).scrollTop();
-		if(s>=187.2&&s<860){
+		if(s>=187.2&&s<1000){
 			$("#b_popCtn").css("top",$(document).scrollTop()-187.2);
 		}else{
 			$("#b_popCtn").css("top",0);
