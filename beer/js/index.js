@@ -1,5 +1,4 @@
 $(function(){
-	//左侧菜单
 	$("#b_cate .cate_menu_item").mouseenter(function(){
         var index=$(this).attr("data-index");
         $(this).addClass("cate_menu_item_on");
@@ -18,5 +17,14 @@ $(function(){
 	$("#b_popCtn").mouseleave(function(){
 		$("#b_popCtn").css("display","none");
 	});
-	
+	$(window).scroll(function(){
+		//console.log($(document).scrollTop());
+		var s = $(document).scrollTop();
+		if(s>=187.2&&s<860){
+			$("#b_popCtn").css("top",$(document).scrollTop()-187.2);
+		}else{
+			$("#b_popCtn").css("top",0);
+		}
+		
+	});
 });
