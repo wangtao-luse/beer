@@ -26,6 +26,11 @@ button, input {
 button {
 	cursor: pointer;
 }
+img{
+	border: 0;
+	vertical-align: middle;
+}
+}
 .fl{
 	float: left;
 }
