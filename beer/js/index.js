@@ -27,4 +27,13 @@ $(function(){
 		}
 		
 	});
+	var bannerSlider = new Slider($('.slider_list'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('.lider_indicators'),
+            activeControllerCls: 'slider_indicators_btn_active'
+        });
 });
