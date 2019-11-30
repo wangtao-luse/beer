@@ -33,7 +33,7 @@ $(function(){
             event: 'hover',
             auto: true,
             mode: 'fade',
-            controller: $('.lider_indicators'),
+            controller: $('.slider_indicators'),
             activeControllerCls: 'slider_indicators_btn_active'
         });
 });
