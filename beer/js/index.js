@@ -36,4 +36,10 @@ $(function(){
             controller: $('.slider_indicators'),
             activeControllerCls: 'slider_indicators_btn_active'
         });
+        $('.slider_list .slider_control_prev').click(function() {
+            bannerSlider.prev()
+        });
+        $('.slider_list .slider_control_next').click(function() {
+            bannerSlider.next()
+        });
 });

@@ -270,6 +270,7 @@
 .focus{
 	height: 470px;
 	margin-top: 10px;
+	overflow: hidden;
 }
 .focus .focus-main{
 	-webkit-animation: skeletonShow 0.3s ease both;
@@ -393,6 +394,7 @@
     left: 0;
     top: 2px;
     border: 3px solid rgba(0,0,0,0.1);
+    background: #fff;
 }
 .focus .focus-slider .sliderRecommendWrapper{
 	width: 190px;
@@ -472,7 +474,77 @@ img {
 	height: 102px;
 	background: #fff;
 	margin-top: 10px;
+	/*overflow: hidden;*/
 	
+}
+.user_inner {
+    position: relative;
+    padding-top: 67px;
+    height: 35px;
+}
+
+.user_avatar_lk, .user_avatar_lk img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.user_avatar_lk img {
+	background: #d5d5d5;
+}
+.user_avatar_lk {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.user_avatar {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    width: 44px;
+    height: 44px;
+}
+.user_show {
+    position: absolute;
+    top: 16px;
+    left: 74px;
+    right: 10px;
+}
+.user_show p {
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+}
+.user_login, .user_reg {
+    color: #333;
+}
+.user_profit {
+    height: 25px;
+    font-size: 0;
+    text-align: center;
+}
+.user_profit_lk {
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    border-radius: 13px;
+    background: #e1251b;
+    -webkit-transition: background .3s ease,color .3s ease;
+    transition: background .3s ease,color .3s ease;
+}
+.user_profit_lk_plus {
+    background: #363634;
+    color: #e5d790;
 }
 .news,.news2{
 	height: 130px;
@@ -520,25 +592,26 @@ img {
 	padding: 10px 0 10px;
 }
 .cate_part_col1{
-	width: 800px;
+	width: 726px;
 	float: left;
 }
 .cate_part_col2 {
     float: left;
-    width: 198px;
+    width: 242px;
 }
 .cate_brand{
-	width: 168px;
+	width: 242px;
 	margin: auto;
 	font-size: 0;
 }
 .cate_brand_lk {
     overflow: hidden;
     display: inline-block;
-    width: 83px;
-    height: 35px;
+    width: 120px;
+    height: 60px;
     margin: 0 0 1px 1px;
     background-color: #e7e7e7;
+    cursor: pointer;
 }
 .cate_promotion {
     margin: 10px auto 0;
