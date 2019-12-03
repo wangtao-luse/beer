@@ -618,12 +618,7 @@ img {
 	height: 225px;
 	padding-top: 5px;
 }
-.beer_container.floor{
-	height: 340px;
-	margin-top: 20px;
-	margin-bottom: 20px;	
-	
-}
+
 .top{
  background: #fff;	
 }
@@ -734,6 +729,113 @@ img {
 	line-height: 16px;
 	white-space: nowrap;
 }
+.beer_container.floor{
+	height: 340px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+	
+}
+
+.core1 {
+    height: 340px;
+}
+.beer_container {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    float: left;
+    height: 340px;
+    margin: 0 10px 0 0;
+}
+.top {
+    background: #fff;
+}
+.grid_c2 {
+    width: 590px;
+}
+.box_hd {
+    height: 60px;
+    padding: 0 20px;
+    font-size: 0;
+    line-height: 0;
+}
+.box_hd_lk {
+    display: inline-block;
+    position: relative;
+    height: 32px;
+    margin: 12px 0 0;
+}
+.box_hd {
+    font-size: 0;
+    line-height: 0;
+}
+.box_tit {
+    float: left;
+    font-weight: 700;
+    font-size: 24px;
+    color:#333;
+    line-height: 32px;
+} 
+.box_hd_arrow {
+    background-image: url(../img/sprint/sprite.png);
+    background-position: -16px 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 10px;
+}
+.top_tab {
+	position: relative;
+}
+.tab_head {
+    position: absolute;
+    height: 60px;
+    right: 7px;
+    top: -60px;
+    line-height: 0;
+    font-size: 0;
+}
+.tab_head_item {
+
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0;
+    font-size: 14px;
+
+}
+.top_tab_lk {
+    display: inline-block;
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:  #999;
+    padding: 0 5px;
+    margin: 0 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #b_lightning{
 	height: 340px;
