@@ -3650,7 +3650,7 @@ input:-webkit-autofill {
 	width: 38px;
 	height: 38px;
 	border-right: 1px solid #bdbdbd;
-	background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) no-repeat
+	background: url(../../img/login/pwd-icons-new.png) no-repeat
 }
 
 .form .item .name-label {
@@ -4260,7 +4260,7 @@ input:-webkit-autofill {
 	top: -2px;
 	width: 141px;
 	height: 168px;
-	background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/phone-orange.png) no-repeat;
+	background: url(../../img/login/phone-orange.png) no-repeat;
 	z-index: 99
 }
 

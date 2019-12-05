@@ -8,10 +8,12 @@
     <link rel="icon" href="../img/ico/favicon.ico">
     <link type="text/css" rel="stylesheet" href="../css/login/login.css" source="widget">
     <link type="text/css" rel="stylesheet" href="../css/login/tinyscrollbar-170524.css">
-   <!-- <script type="text/javascript" async="" src="../js/login/wl.js"></script><script type="text/javascript" async="" src="login_files/s.js"></script><script type="text/javascript" async="" src="login_files/wl_002.js"></script><script type="text/javascript" src="login_files/jquery-1.js"></script>
-    <script type="text/javascript" src="../js/login/login.js"></script>
-    <script type="text/javascript" src="../js/login/beerSlide.js"></script>
-    <script type="text/javascript" src="../js/login/common_login_v20180829.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.4.1.js.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+   <!-- <script type="text/javascript" async="" src="../js/login/wl#"></script><script type="text/javascript" async="" src="login_files/s#"></script><script type="text/javascript" async="" src="login_files/wl_002#"></script><script type="text/javascript" src="login_files/jquery-1#"></script>
+    <script type="text/javascript" src="../js/login/login#"></script>
+    <script type="text/javascript" src="../js/login/beerSlide#"></script>
+    <script type="text/javascript" src="../js/login/common_login_v20180829#"></script>
     <script type="text/javascript">
         $(function(){
             window.SysConfig = {
@@ -24,7 +26,7 @@
 <div class="w">
     <div id="logo">
         <a href="#" clstag="pageclick|keycount|20150112ABD|45">
-            <img src="../img/login/logo-201305-b.png" alt="京东" width="170" height="60">
+            <img src="../img/beer2.png" alt="京东" width="170" height="60">
         </a>
         <b></b>
     </div>
@@ -44,7 +46,15 @@
     </div>
 	<div class="login-wrap">
         <div class="w">
-            <div class="login-form"><div class="tips-wrapper"><div class="tips-inner"><div class="cont-wrapper"><i class="icon-tips"></i><p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p></div></div></div>
+            <div class="login-form">
+            	<div class="tips-wrapper">
+            		<div class="tips-inner">
+            			<div class="cont-wrapper">
+            				<i class="icon-tips"></i>
+            				<p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+            			</div>
+            		</div>
+            	</div>
                 <div class="login-tab login-tab-l">
                     <a href="javascript:void(0)" clstag="pageclick|keycount|login_pc_201804112|9" class="checked"> 扫码登录</a>
                 </div>
@@ -162,7 +172,9 @@
         </div>
         <div class="login-banner" style="background-color: #f02665">
         	  <div class="w">
-        	  	<div id="banner-bg" clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url(../img/login/8d6e8af1f3e3448d.jpg) 0px 0px no-repeat;background-color: #f02665"></div>		              </div>		           </div>
+        	  	<div id="banner-bg" clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url(../img/login/8d6e8af1f3e3448d.jpg) 0px 0px no-repeat;background-color: #f02665"></div>
+        	  </div>	
+        </div>
     </div>
 </div>
 <div class="w">
@@ -215,22 +227,53 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="login_files/base.js"></script>
-<script type="text/javascript" src="../js/login/beerJsencrypt.js"></script>
-<script type="text/javascript" src="login_files/login2016.js"></script>
-<script type="text/javascript" src="login_files/login.js" source="widget" charset="utf-8"></script>
-<script type="text/javascript">	~function () {		var data = [						{			  src:"//img13.360buyimg.com/da/jfs/t1/73982/30/16444/75049/5de07c88Ef2190851/6efbf2cadd6042e2.jpg",			  bgColor:"#ebd1ac",                          weight: ""			}						,			{			  src:"//img30.360buyimg.com/da/jfs/t1/104846/6/3496/100326/5de0f305Ee39a6a4a/8d6e8af1f3e3448d.jpg",			  bgColor:"#f02665",                          weight: ""			}			];						         var getRandom = function (arr) {			var _temp = 0, _random = 0, _weight, _newArr = [];						for (var i = 0; i < arr.length; i++) {				_weight = parseInt(arr[i].weight) ? parseInt(arr[i].weight) : 1;				_newArr[i] = [];				_newArr[i].push(_temp);				_temp += _weight;				_newArr[i].push(_temp);			}						_random = Math.ceil(_temp * Math.random());						for (var i = 0; i< _newArr.length; i++){				if(_random > _newArr[i][0] && _random <= _newArr[i][1]){					return arr[i];				}			}			};				var tpl = '<div class="login-banner" style="background-color: {bgColor}">\		              <div class="w">\			         <div id="banner-bg"  clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url({imgURI}) 0px 0px no-repeat;background-color: {bgColor}"></div>\		              </div>\		           </div>';							var bgData = getRandom(data);		var bannerHtml = tpl.replace(/{bgColor}/g, bgData.bgColor).replace(/{imgURI}/g, bgData.src);				$('.login-banner').replaceWith(bannerHtml);	}();</script>
+<script type="text/javascript" src="login_files/base"></script>
+<script type="text/javascript" src="js/login/beerJsencrypt"></script>
+<script type="text/javascript" src="login_files/login2016"></script>
+<script type="text/javascript" src="login_files/login" source="widget" charset="utf-8"></script>
 <script type="text/javascript">
-    (function () {
+	~function () {
+		var data = [{
+			src:"../img/login/3463e516aa794bed.jpg",
+			bgColor:"#061046", 
+			weight: ""
+			},
+			{src:"../img/login/8d6e8af1f3e3448d.jpg",	
+			bgColor:"#f02665", 
+			weight: ""}	
+		];	
+		var getRandom = function (arr) {
+			var _temp = 0, _random = 0, _weight, _newArr = [];
+			for (var i = 0; i < arr.length; i++) {
+				_weight = parseInt(arr[i].weight) ? parseInt(arr[i].weight) : 1;
+				_newArr[i] = [];
+				_newArr[i].push(_temp);
+				_temp += _weight;
+				_newArr[i].push(_temp);
+			}
+			_random = Math.ceil(_temp * Math.random());	
+			for (var i = 0; i< _newArr.length; i++){
+				if(_random > _newArr[i][0] && _random <= _newArr[i][1]){
+					return arr[i];
+				}	
+			}	
+		};	
+		var tpl = '<div class="login-banner" style="background-color: {bgColor}">\    <div class="w">\	 <div id="banner-bg"  clstag="pageclick|keycount|20150112ABD|46" class="i-inner" style="background: url({imgURI}) 0px 0px no-repeat;background-color: {bgColor}"></div>\</div>\</div>';	
+		var bgData = getRandom(data);
+		var bannerHtml = tpl.replace(/{bgColor}/g, bgData.bgColor).replace(/{imgURI}/g, bgData.src);
+		$('.login-banner').replaceWith(bannerHtml);	}();
+</script>
+<script type="text/javascript">
+    /*(function () {
         var ja = document.createElement('script');
         ja.type = 'text/javascript';
         ja.async = true;
-        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : '//csc') + '.jd.com/wl.js';
+        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : '//csc') + '.jd.com/wl#';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ja, s);
-    })();
+    })();*/
 </script>
-<script src="../js/login/td.js">	
+<script src="../js/login/td#">	
 </script><script src="y.html"></script>
 <script language="JavaScript">
     function loginGetEid(count) {
@@ -260,17 +303,17 @@
 <!-- SDK 登录 -->
 
 <script type="text/javascript">
-    (function () {
+   /* (function () {
         var ja = document.createElement('script');
         ja.type = 'text/javascript';
         ja.async = true;
-        ja.src = document.location.protocol+'//wl.jd.com/wl.js';
+        ja.src = document.location.protocol+'//wl.jd.com/wl#';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ja, s);
-    })();
+    })();*/
 </script>
 <link rel="stylesheet" type="text/css" href="../css/login/style.css">
-<script type="text/javascript" charset="UTF-8" async="" src="../js/login/slide.js"></script>
-<script src="login_files/td.js"></script>
+<script type="text/javascript" charset="UTF-8" async="" src="../js/login/slide#"></script>
+<script src="login_files/td#"></script>
 </body>
 </html>
