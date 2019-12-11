@@ -465,6 +465,116 @@ img {
 	height: 390px;
 	margin-top: 10px;
 }
+
+.seckill-list .seckill-item {
+    position: relative;
+    width: 200px;
+    height: 260px;
+    display: inline-block;
+    }
+.seckill-list .seckill-item__image {
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+}
+.seckill-list .seckill-item__name {
+    font-size: 12px;
+    font-weight: 400;
+    color: 
+    #333;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.seckill-list .seckill-item__name {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+}
+.seckill-list .seckill-item__price {
+    border: 1px solid #e1251b;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 24px;
+	overflow: hidden;
+	background-color: #e1251b;
+}
+.seckill-list .seckill-item__price {
+    width: 160px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+.seckill-list .seckill-item__price .price-miaosha {
+    width: 92px;
+    height: 100%;
+    text-align: center;
+    color:  #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    float: left;
+}
+.seckill-list .seckill-item__price .price-miaosha::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-color:transparent white transparent transparent;
+    border-style: solid;
+    border-width: 22px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 83px;
+}
+.seckill-list .seckill-item__price .price-miaosha i {
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 2px;
+}
+.seckill-list .seckill-item__price .price-origin {
+    height: 100%;
+    width: 66px;
+    float: right;
+    background: 
+#fff;
+text-align: center;
+color:
+    #999;
+    font-size: 12px;
+    line-height: 22px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: line-through;
+    vertical-align: top;
+}
+.seckill-list .seckill-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),to(white));
+    background: linear-gradient(180deg,
+white,#eeeeee,
+    white);
+}
+
+
+
+
 .fs-col3{
 	width: 190px;
 	height: 840px;
