@@ -18,7 +18,7 @@ $(function(){
 		$("#b_popCtn").css("display","none");
 	});
 	$(window).scroll(function(){
-		console.log($(document).scrollTop());
+		//console.log($(document).scrollTop());
 		var s = $(document).scrollTop();
 		if(s>=187.2&&s<1000){
 			$("#b_popCtn").css("top",$(document).scrollTop()-187.2);
@@ -36,10 +36,10 @@ $(function(){
             controller: $('.slider_indicators'),
             activeControllerCls: 'slider_indicators_btn_active'
         });
-        $('.slider_list .slider_control_prev').click(function() {
-            bannerSlider.prev()
+       $('.sliderBanner .slider_control_prev').click(function() {
+            bannerSlider.prev();
         });
-        $('.slider_list .slider_control_next').click(function() {
-            bannerSlider.next()
+        $('.sliderBanner .slider_control_next').click(function() {
+            bannerSlider.next();
         });
 });
