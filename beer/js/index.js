@@ -79,5 +79,21 @@ $(function(){
         $('.box-new-inner .slider_control_next').click(function() {
             newBeerSlider.next();
         });
-
+        
+       var setTime=setInterval(goods,100);
+       var start=0;
+       var goods=function(){
+       	start=start-2;
+       	 //console.log(start);
+       	 $("#b_niceGoods .goods-list").css("transform","translate3d("+start+"px,0,0)");
+       	 if(start<-2000){
+       	 	start=0;
+       	 }
+       }
+       $("#b_niceGoods .goods-list").mouseenter(function(){
+       	  clearInterval(setTime);
+       });
+       $("#b_niceGoods .goods-list").mouseleave(function(){
+       	  setTime=setInterval(goods,100);
+       });
 });
