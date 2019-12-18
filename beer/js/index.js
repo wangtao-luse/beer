@@ -8,9 +8,11 @@ $(function(){
 	console.log("屏幕分辨率的高:"+height);
 	console.log("屏幕分辨率的宽:"+width);
 	//1. 1536*864
-	//2.
+	//2. 1280*720
+	console.log(document.body.clientWidth );
+	console.log(document.body.clientHeight );
 	
-	if(width<=1080){
+	if(height<864){
 		htmlObj.addClass("o2_mini");
 	}
 	
