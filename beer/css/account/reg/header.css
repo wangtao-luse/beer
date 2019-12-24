@@ -343,7 +343,7 @@ input::-ms-reveal {
 
 .progress-bar .pro-line,
 .progress-bar .pro-step .step-index {
-	background: url(../../img/login/reg-icon.png) no-repeat
+	background: url(../../../img/account/login/reg-icon.png) no-repeat
 }
 
 .i-error {
@@ -1212,7 +1212,7 @@ body {
 }
 
 .ui-dialog .ui-dialog-close {
-	background: url(../../img/login/x.png) no-repeat;
+	background: url(../../../img/account/login/x.png) no-repeat;
 	background-size: 13px 13px
 }
 
